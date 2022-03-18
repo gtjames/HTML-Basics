@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d8ccc87-3e94-4499-abe4-c94c03fde804" name="Default Changelist" comment="Started work on the JS pages">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/CSS with Classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/CSS with Classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/Transforms.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week CSS/Transforms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/style/Transforms.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week CSS/style/Transforms.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectId" id="1xdZbwkT5JAzpfMj1D7KQ84gfdv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SD-101 HTML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SD-101 HTML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SD-101 HTML" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SD-101 HTML" type="462c0819:PsiDirectoryNode" />
+              <item name="Final Review" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week CSS/images" />
+      <recent name="$PROJECT_DIR$/Week CSS" />
+      <recent name="$PROJECT_DIR$/JavaScript" />
+      <recent name="$PROJECT_DIR$/JavaScript/scripts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/JavaScript" />
+      <recent name="$PROJECT_DIR$/JavaScript/scripts" />
+      <recent name="$PROJECT_DIR$/Week CSS" />
+      <recent name="$PROJECT_DIR$/Week HTML/images" />
+      <recent name="$PROJECT_DIR$/Week HTML/Styles" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d8ccc87-3e94-4499-abe4-c94c03fde804" name="Default Changelist" comment="" />
+      <created>1533682071463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1533682071463</updated>
+      <workItem from="1533682073920" duration="1800000" />
+      <workItem from="1630687002724" duration="25012000" />
+      <workItem from="1631037101390" duration="2717000" />
+      <workItem from="1631041068918" duration="27277000" />
+      <workItem from="1631644607113" duration="8546000" />
+      <workItem from="1644454023102" duration="1165000" />
+      <workItem from="1647475430816" duration="5770000" />
+    </task>
+    <task id="LOCAL-00001" summary="merged my two HTML projects">
+      <created>1630789382574</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630789382574</updated>
+    </task>
+    <task id="LOCAL-00002" summary="removed unnessesary files and projects">
+      <created>1631032409710</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1631032409710</updated>
+    </task>
+    <task id="LOCAL-00003" summary="removed unnecessary files and projects">
+      <created>1631032861728</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1631032861728</updated>
+    </task>
+    <task id="LOCAL-00004" summary="getting details in order for class demonstration">
+      <created>1631034816034</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1631034816034</updated>
+    </task>
+    <task id="LOCAL-00005" summary="image tags REALLY want an alt attribute">
+      <created>1631034879885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1631034879885</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lots of clean up of the CSS examples">
+      <created>1631216209816</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1631216209817</updated>
+    </task>
+    <task id="LOCAL-00007" summary="General improvement of the Bootstrap code">
+      <created>1631846326861</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1631846326861</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Started work on the JS pages">
+      <created>1631847846647</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1631847846647</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1800000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Week CSS" />
+    </ignored-roots>
+    <MESSAGE value="merged my two HTML projects" />
+    <MESSAGE value="removed unnessesary files and projects" />
+    <MESSAGE value="removed unnecessary files and projects" />
+    <MESSAGE value="getting details in order for class demonstration" />
+    <MESSAGE value="image tags REALLY want an alt attribute" />
+    <MESSAGE value="Lots of clean up of the CSS examples" />
+    <MESSAGE value="General improvement of the Bootstrap code" />
+    <MESSAGE value="Started work on the JS pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started work on the JS pages" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>9.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

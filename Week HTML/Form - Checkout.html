@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Buy art</title>
+    <style>
+        legend {
+            background-color: gray;
+            color: white;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+<form class="" action="index.html" method="post">
+    <fieldset>
+        <legend>Checkout</legend>
+        <label for="txtFirstName">First Name:</label>
+        <input type="text" name="txtFirstName" id="txtFirstName" value="">
+        <label for="txtLastName">Last Name:</label>
+        <input type="text" list="lastNames" name="txtLastName" id="txtLastName" value="">
+        <datalist id="lastNames">
+            <option value="de Broglie">
+            <option value="van der Hoven">
+            <option value="Frankenstein">
+            <option value="Feynman">
+            <option value="Washington">
+        </datalist>
+        <hr>
+        <fieldset>
+            <legend>CC info</legend>
+            <label for="visa">Credit Card Type</label><br>
+            <input type="radio" name="rbCCType" value="Visa" id="visa">Visa <br>
+            <input type="radio" name="rbCCType" value="Mastercard">Master Card<br>
+            <input type="radio" name="rbCCType" value="Discover">Discover<br>
+
+            <label for="txtCardNumber">Card #:</label>
+            <input type="text" name="txtCardNumber" id="txtCardNumber">
+
+            <label for="ddlExpireMonth">Expiration Month:</label>
+            <select id="ddlExpireMonth" class="" name="expirationMonth">
+                <option value="1">January</option>
+                <option value="2">February</option>
+                <option value="3">March</option>
+                <option value="4">April</option>
+                <option value="5">May</option>
+                <option value="6">June</option>
+                <option value="7">July</option>
+                <option value="8">August</option>
+                <option value="9">September</option>
+                <option value="10">October</option>
+                <option value="11">November</option>
+                <option value="12">December</option>
+            </select>
+            <label for="nudExpireYear">Day:</label>
+            <input type="number" name="nudExpireYear" min="2018" max="2024" id="nudExpireYear"><br><br>
+        </fieldset>
+        <label for="checkedSaveCard">Save Card for Future Purchases</label>
+        <input type="checkbox" name="checkedSaveCard" id="checkedSaveCard">
+        <br><br>
+        <button type="submit">Complete Purchase</button>
+    </fieldset>
+</form>
+
+<form class="" action="index.html" method="post">
+    <fieldset>
+        <br><input type="button" value="Don't Panic">
+        <br><label for="reg">Registered?</label>        <input id="reg"    type="checkbox" checked>
+        <br>                                            <input id="color"  type="color" onchange='changeColor(this.value)'>
+        <br><label for="email">Student email?</label>   <input id="email"  type="email">
+        <br><input type="file">
+        <br><label for="image">Image</label>            <input id="image"  type="image"  src="images/dont-panic.jpg" width="80px">
+        <br><label for="number">Number</label>          <input id="number" type="number" min="20" max="42">
+        <br><label for="range">Range</label>            <input id="range"  type="range"  min="20" max="42">
+        <br><label for="phone">Telephone</label>        <input id="phone"  type="tel" required>
+        <br><label for="text">Just Text</label>         <input id="text"   type="text">
+        <br><label for="date">Date</label>              <input id="date"   type="date">
+        <br><label for="dttm">Date Time</label>         <input id="dttm"   type="datetime-local">
+        <br><label for="month">Month</label>            <input id="month"  type="month">
+        <br><label for="time">Time</label>              <input id="time"   type="time">
+        <br><label for="week">Week</label>              <input id="week"   type="week">
+        <hr>
+        <button type="submit">Submit to Server</button>
+    </fieldset>
+</form>
+</body>
+<script>
+    function changeColor(color) {
+        document.body.style.backgroundColor = color;
+    }
+</script>
+</html>

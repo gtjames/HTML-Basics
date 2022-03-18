@@ -1,0 +1,59 @@
+<html>
+
+<head>
+  <title>Even Test Page</title>
+  <style>
+    body { background-color: palegoldenrod; }
+
+    div { 
+      width: 300px;
+      height: 120px;
+      transition: all 1s; 
+    }
+
+    .shadow {
+      box-shadow: rgb(119, 120, 124) 10px 10px 5px;
+      width: 280px;
+      height: 80px;
+      background-color: white;
+    }
+
+    .noShadow {
+      border-radius: 30%;
+      height: 80px;
+      width: 300px;
+      background-color: lightskyblue;
+    }
+  </style>
+</head>
+
+<body>
+<div id='div1' class='noShadow' onclick='addShadow(event, "first")'>Click me: Testing CSS Styles</div>
+<hr>
+<div id='div2' class='shadow'>Just a basic DIV with shadow</div>
+<hr>
+<div id='div3' class='noShadow'>Just a basic DIV no shadow</div>
+<hr>
+<div class='shadow dummy'>Just a basic DIV with a shadow</div>
+<script>
+  let div2 = document.getElementById('div2');
+  let div3 = document.getElementById('div3');
+  let allShadows = document.getElementsByClassName('shadow');
+  let div4 = document.querySelector('.dummy');
+
+  div2.addEventListener('click', (event) => addShadow(event, "second"));
+
+  function addShadow(event, who) {
+    div3.innerText = who;
+    div4.innerText = who + " this is the 4th div";
+    
+    div = event.currentTarget
+    if (div.classList.contains('shadow'))
+      div.className = 'noShadow';
+    else
+      div.className = 'shadow';
+  }
+</script>
+</body>
+
+</html>

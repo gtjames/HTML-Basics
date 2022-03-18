@@ -1,0 +1,38 @@
+
+/* CSS Document */
+body{
+	background: #6595A3;
+	padding: 0 20px;
+	color: white;
+}
+
+/*Create span and fieldset rule here*/
+
+form{
+	width: 60%;
+	padding: 25px;
+	border-style:solid;
+	border-color: black;
+}
+
+fieldset{
+
+}
+
+h1{
+	font: 26px tahoma, arial;
+	color: #324143
+}
+
+
+a{
+	color: #324143
+}
+
+
+
+.clear{
+	clear: both;
+	overflow: hidden;
+	height: 0
+}

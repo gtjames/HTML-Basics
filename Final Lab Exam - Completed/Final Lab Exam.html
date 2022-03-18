@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SD 101 - Final Lab Exam</title>
+<!--Add links for bootstrap, JQuery, styles.css,  and validation.js-->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="styles/styles.css">
+<script src="scripts/validation.js"></script>
+</head>
+<body>
+<h3>Voter E-Registration</h3>
+<hr />
+
+<!--forms begin-->
+<form name="myForm" id="myForm">
+
+	<!--fieldset tag puts box around form-->
+	<fieldset>
+		<p class="input-group">
+			<span for="txtName" class="input-group-addon">Name</span>
+			<input type="text" id="txtName" name="txtName"  class="form-control">
+			<span id="txtNameMessage"></span>
+		</p>
+		<p class="form-check">
+			<span for="rdGender" class="form-check-label">Gender</span>
+			<input id="rdGenderM" name="rdGender" type="radio" value="male"  class="form-check-input"> male
+			<input id="rdGenderF" name="rdGender"	type="radio" value="female"  class="form-check-input"> female
+			<span id="rdGenderMessage"></span>
+		</p>
+		<p class="form-check">
+			<span for="chkCitizen" class="form-check-label">Are you a U.S. Citizen?</span>
+			<input id="chkCitizen" type="checkbox"	name="chkCitizen"  class="form-check-input">
+			<span id="chkCitizenMessage"></span>
+		</P>
+		<p class="input-group">
+			<span for="ddlCounty" class="input-group-addon">County of Residence:</span>
+			<select id="ddlCounty" name="county"  class="form-control">
+					<option></option>
+					<option value="Dallas">Dallas</option>
+					<option value="Collin">Collin</option>
+					<option value="Denton">Denton</option>
+          <option value="Johnson">Johnson</option>
+          <option value="Tarrant">Tarrant</option>
+				</select>
+				<span id="ddlCountyMessage"></span>
+		</p>
+		<p class="input-group">
+			<span for="nudAge" class="input-group-addon">Age</span>
+			<input type="number" id="nudAge" name="nudAge"  class="form-control">
+			<span id="nudAgeMessage"></span>
+		</P>
+		<p class="input-group">
+			<!--Add email span and textbox-->
+			<span for="txtEmail" class="input-group-addon">Email:</span>
+			<input type="text" name="txtEmail" id="txtEmail"  class="form-control" placeholder="youremail@yourdomain.com">
+		</p>
+		<p class="input-group">
+			<button onclick="validate()" class="btn btn-primary">Submit</button>
+		</p>
+	</fieldset>
+</form>
+</body>
+</html>

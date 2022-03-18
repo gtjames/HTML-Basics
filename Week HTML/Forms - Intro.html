@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Form Example</title>
+</head>
+
+<body bgcolor="#5F9EC4">
+
+  <form action="search" method="post">
+    <fieldset>
+      <legend>Dali Art</legend>
+      <input type="text" name="txtSearchBox" value="">
+    </fieldset>
+  </form>
+
+  <form class="Login" action="login" method="post" bgcolor="yellow">
+    <fieldset>
+      <label for="txtUserName">UserName:</label>
+      <input type="text" name="txtUserName" id="txtUserName">
+      <br><br>
+      <label for="txtPassword">Password:</label>
+      <input type="password" name="txtPassword" id="txtPassword">
+      <br>
+      <button type="submit">Search for</button>
+    </fieldset>
+  </form>
+
+  <form class="textArea" action="index.html" method="post">
+    <label for="txtComments">Product Return: (please describe reason for return: 100 char limit)</label><br>
+    <textarea name="txtComments" id="txtComments" maxlength="100" style="margin: 8px; width: 310px; height: 115px;">Leave a Comment</textarea>
+  </form>
+
+  <form action="Checkout" method="GET">
+    <fieldset>
+      <legend>Checkout</legend>
+      <label for="rbVisa">Credit Card Type</label><br>
+      <input type="radio" name="rbCCType" id="rbVisa" value="Visa">Visa<br>
+      <input type="radio" name="rbCCType" id="rbMasterCard" value="MasterCard">Master Card<br>
+      <input type="radio" name="rbCCType" id="rbDiscover" value="Discover">Discover<br>
+      <br>
+      <label for="txtCardNumber">Card #:</label>
+      <input type="text" name="txtCardNumber" id="txtCardNumber">
+      <label for="ddlExpireMonth">Expiration Month:</label>
+      <select id="ddlExpireMonth" class="" name="ddlExpireMonth">
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+        <option value="5">May</option>
+        <option value="6">June</option>
+        <option value="7">July</option>
+        <option value="8">August</option>
+        <option value="9">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+      </select>
+      <label for="nudExpireDate">Day:</label>
+      <input type="date" id="nudExpireDate" name="nudExpireDate"><br><br>
+      <label for="nudExpireDay">Day:</label>
+      <input type="number" id="nudExpireDay" name="nudExpireDay" min="1" max="31"><br><br>
+
+      <input type="checkbox" name="checkedSaveCard" id="checkedSaveCard" checked>
+      <label for="checkedSaveCard">Save Card for Future Purchases</label><br>
+
+      <input type="checkbox" name="checkedShipToHome" id="checkedShipToHome">
+      <label for="checkedShipToHome">Ship to Home</label><br>
+
+      <input type="checkbox" name="checkedGetShippingConfirmation" id="checkedGetShippingConfirmation" checked>
+      <label for="checkedGetShippingConfirmation">Get shipping confirmation</label>
+      <br><br>
+      <button type="submit">Complete Purchase</button>
+    </fieldset>
+  </form>
+  <form action="">
+    <fieldset>
+      <legend>Dali Artwork</legend>
+      <label for="txtSearchBox">Search for Works by Dali:</label>
+      <input type="text" id="txtSearchBox" name="txtSearchBox">
+      <button type="submit"><img src="images/magnifyingGlass.png" width="15px" height="15px"></button>
+      <button type="submit">Search for</button>
+    </fieldset>
+  </form>
+  <form action="doit">
+    <fieldset>
+      <legend>Dali Artwork</legend>
+      <label for="chkIncludeNonGraphic">Include Non-Graphic Works</label>
+      <input type="checkbox" name="chkIncludeNonGraphic" id="chkIncludeNonGraphic" checked="true">
+      <br>
+      <label for="SearchBox">Search for Works by Dali:</label>
+      <input type="search" name="SearchBox" id="SearchBox">
+      <input type="image" src="images/magnifyingGlass.png" width="15px" height="15px" name="ImageName" value="">
+    </fieldset>
+  </form>
+  <form action="">
+    <fieldset>
+      <label for="fileUpload">Upload File:</label>
+      <input type="file" id="fileUpload" name="fileUpload">
+      <br>
+    </fieldset>
+  </form>
+  <form action="">
+    <fieldset>
+      <label for="color">Choose a Color:</label>
+      <input type="color" id="color" name="color" onchange='changeColor(this.value)'>
+      <br>
+    </fieldset>
+  </form>
+  <script>
+    let name = document.getElementById('txtUserName');
+    name.value = 'University of North Texas';
+    name.style.color = 'red';
+    name.style.backgroundColor = 'lightblue';
+    name.style.borderRadius = '6px';
+    name.style.borderStyle = 'dashed';
+
+    let passwd = document.getElementById('txtPassword');
+    passwd.style.backgroundColor = 'lightgreen';
+
+    function changeColor(color) {
+      document.body.style.backgroundColor = color;
+    }
+  </script>
+</body>
+
+</html>

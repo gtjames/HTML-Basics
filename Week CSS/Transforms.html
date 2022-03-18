@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset=utf-8>
+    <title>Designing, Defining, and Triggering CSS3 Transforms without Custom Libraries</title>
+    <link rel="stylesheet" type="text/css" href="style/Transforms.css">
+</head>
+
+<body>
+<h2>CSS3 Transforms (not for the feint of heart)</h2>
+<p>Hover over each box and see the different types of <strong>2D transforms</strong> here.</p>
+
+<table id="fancy" class="base rotate">
+    <tr>
+        <td>Just a simple</td>
+        <td>Table</td>
+    </tr>
+    <tr>
+        <td>But watch what happens</td>
+        <td>when we add in a CSS rule</td>
+    </tr>
+    <tr>
+        <td>things go</td>
+        <td>CRAZY</td>
+    </tr>
+    <tr>
+        <td>Go get your mom</td>
+        <td>I think she would like to see this</td>
+    </tr>
+    <tr>
+        <td><label for="type">Change Class</label>
+            <select id="type">
+                <option value="many">Many</option>
+                <option value="translate">Translate</option>
+                <option value="skew">Skew</option>
+                <option value="color">Color</option>
+                <option value="rotate">Rotate</option>
+                <option value="scale">Scale</option>
+            </select>
+        </td>
+        <td><button id="toggle">Toggle Class</button></td>
+    </tr>
+</table>
+<h4>Multiple Transitions</h4>
+<div class="base many">#many:hover {
+    width: 300px;<br>
+    height: 150px;<br>
+    background-color: lightblue;<br>
+    }
+</div>
+
+<h4>Color and Size</h4>
+<div class="base color">#color:hover {<br>
+    background-color: yellow;<br>
+    width: 150px;<br>
+    box-shadow: 10px 10px 15px grey;<br>
+    }
+</div>
+
+<h4>Translate</h4>
+<div class="base translate">#translate:hover {<br>
+    transform:translate(100px, -50px);<br>
+    box-shadow: 10px 10px 5px grey;<br>
+    border-radius: 36px;<br>
+    }
+</div>
+
+<h4>Rotate</h4>
+<div class="base rotate">#rotate:hover {<br>
+    transform: rotate(45deg);<br>
+    }
+</div>
+
+<h4>Scale</h4>
+<div class="base scale">#scale:hover {<br>
+    background-color: chocolate;<br>
+    transform: scale(1.1);<br>
+    box-shadow: 10px 10px 5px grey;<br>
+    }
+</div>
+
+<h4>Skew</h4>
+<div class="base skew">#skew:hover {
+    background-color: lightpink;<br>
+    transform: skew(-30deg, -15deg);<br>
+    box-shadow: 10px 10px 15px grey;<br>
+    }
+</div>
+</body>
+<script>
+    document.getElementById("toggle").addEventListener('click', toggleClass);
+    function toggleClass() {
+		let type = document.getElementById("type")
+		let fancy = document.getElementById("fancy")
+		fancy.className = `base ${type.value}`
+    }
+</script>
+</html>

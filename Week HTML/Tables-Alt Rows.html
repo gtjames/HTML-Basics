@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Books</title>
+  <style media="screen">
+    td {
+      padding: 10px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      color: #606060;
+    }
+
+    table td {
+      vertical-align: middle;
+      padding: 0.5em;
+    }
+
+    table thead tr td {
+      background-color: green;
+      vertical-align: middle;
+      padding: 0.6em;
+      font-size: 0.8em;
+    }
+
+    table thead tr th,
+    table tbody tr.separator {
+      padding: 0.5em;
+      background-color: #909090;
+      color: #efefef;
+    }
+
+    table tbody tr:nth-child(odd) {
+      background-color: lightgray;
+    }
+
+    table tbody tr:nth-child(even) {
+      background-color: lightskyblue;
+    }
+
+    table tbody tr:last-child {
+      border-bottom: solid 1px #404040;
+    }
+
+    table tbody tr:hover {
+      background-color: #CCC;
+      color: #700;
+    }
+  </style>
+</head>
+
+<body>
+  <table border='1'>
+    <caption>Books I've Read</caption>
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Title</th>
+        <th>Thumbnail</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2002</td>
+        <td>Making of the Atomic Bomb</td>
+        <td> <img src="\images\The_Making_of_the_Atomic_Bomb.png" width="67px" height="100px" alt=""> </td>
+      </tr>
+      <tr>
+        <td>2018</td>
+        <td>Levianthan Awakes</td>
+        <td> <img src="\images\Leviathan-Wakes.jpg" width="67px" height="100px" alt=""> </td>
+      </tr>
+      <tr>
+        <td>2018</td>
+
+        <td>The Tale of the Dueling Neurosurgeons</td>
+        <td> <img src="\images\Dueling.jpg" width="67px" height="100px" alt=""> </td>
+      </tr>
+      <tr>
+        <td>1995</td>
+        <td>Hitchhikers Guide to the Galaxy</td>
+        <td> <img src="images\the_hitchhikers_guide_to_the_galaxy.jpg" width="67px" height="100px" alt=""> </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table border="1">
+    <caption>Company Revenue for 2018</caption>
+    <thead>
+    <tr>
+      <th>Company ID</th>
+      <th>Corporation Name</th>
+      <th>Yearly Revenue</th>
+    </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td></td>
+        <td>Total Revenue in USD$</td>
+        <td>$321.561</td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td>121</td>
+        <td>Company Z</td>
+        <td>$100,000,000</td>
+      </tr>
+      <tr>
+        <td>328</td>
+        <td>Company Omega</td>
+        <td>$221,561,000</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>

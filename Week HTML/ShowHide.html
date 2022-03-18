@@ -1,0 +1,81 @@
+<HTML>
+
+<HEAD>
+  <TITLE>Welcome to Edge Tech</TITLE>
+  <style>
+    .inputStyle1 {
+      border-color: #000;
+      background-color: white;
+    }
+
+    .inputStyle2 {
+      border-color: black;
+      background-color: #eee;
+      border-width: 1px;
+    }
+
+    :focus {
+      border-radius: 40px;
+      background-color: blue;
+      border-color: green;
+      border-width: 2px;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 2px solid red;
+      border-style: dashed;
+      border-collapse: separate;
+      border-spacing: 2px;
+    }
+  </style>
+</HEAD>
+
+<BODY BGCOLOR="#5F9EC4">
+  <a href="http://UNT.edu">University of North Texas</a> Link to our school's home page!
+  <HR>
+  <P>
+    <label for="example1">Medicaid/Medicare</label>
+    <input type="checkbox" onclick='medicaid()' name="example1" id="example1" value="Example 1" />
+    <div id='medicaid' style='visibility:hidden'>
+      <p>
+        <em>This is a new sentence without a paragraph break, in bold italics.</em>
+        <p>
+            <label for="userName">User Name:</label>
+            <input type="text" name="userName" id="userName" class='inputStyle1' />
+          </p>
+          <p>
+              <label for="background">Change Background Color:</label>
+              <input type="color" oninput="bgColorChange(this)" name="background" id="background" class='inputStyle1' />
+            </p>
+              <p>
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" class="inputStyle2" />
+        </p>
+        <p>
+          <button type="submit" name="button" onClick="changeStyle()" class="inputStyle1">Submit</button>
+        </p>
+        <HR>
+    </div>
+  </p>
+</BODY>
+<script type="text/javascript">
+  function changeStyle() {
+    let ele = document.getElementById("userName");
+    ele.className = "inputStyle" + ((ele.className === "inputStyle1") ? "2" : "1");
+  }
+
+  function medicaid() {
+    div = document.getElementById('medicaid');
+    div.style.visibility = (div.style.visibility == 'hidden') ? 'visible' : 'hidden';
+  }
+
+function bgColorChange(fld) {
+   document.body.style.background = fld.value;
+}
+</script>
+
+</HTML>
