@@ -1,73 +1,73 @@
 /* File: cssTransforms.css */
 .base {
-	width: 300px;
-	height: 150px;
-	margin-bottom: 5px;
-	margin-left: 20px;
-	transition: 2s ease;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    transition: 2s ease;
 }
 
 .many {
-	width: 100px;
-	height: 100px;
-	background: red;
-	transition: width 3s, height 1s, background 6s, border-radius 3s;
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 3s, height 1s, background 6s, border-radius 3s;
 }
 
 .many:hover {
-	width: 300px;
-	height: 150px;
-	background-color: lightblue;
-	border-radius: 12px;
+    width: 300px;
+    height: 150px;
+    background-color: lightblue;
+    border-radius: 12px;
 }
 
 .color {
-	background-color: lightgreen;
+    background-color: lightgreen;
 }
 
 .color:hover {
-	background-color: yellow;
-	color: darkcyan;
-	width: 330px;
-	height: 165px;
-	box-shadow: 10px 10px 15px grey;
+    background-color: yellow;
+    color: darkcyan;
+    width: 330px;
+    height: 165px;
+    box-shadow: 10px 10px 15px grey;
 }
 
 .translate {
-	background-color: lightgrey;
+    background-color: lightgrey;
 }
 
 .translate:hover {
-	transform:translate(100px, -50px);
-	box-shadow: 10px 10px 5px blue;
-	border-radius: 36px;
+    transform:translate(100px, -50px);
+    box-shadow: 10px 10px 5px blue;
+    border-radius: 36px;
 }
 
 .rotate {
-	background-color: lightblue;
+    background-color: lightblue;
 }
 
 .rotate:hover {
-	transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .scale {
-	background-color: gold;
+    background-color: gold;
 }
 
 .scale:hover {
-	background-color: chocolate;
-	transform: scale(1.1);
-	box-shadow: 10px 10px 5px grey;
+    background-color: chocolate;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 5px grey;
 }
 
 .skew {
-	background-color: lightcoral;
-	box-shadow: -10px -10px 10px grey;
+    background-color: lightcoral;
+    box-shadow: -10px -10px 10px grey;
 }
 
 .skew:hover {
-	background-color: lightpink;
-	transform: skew(-30deg, -15deg);
-	box-shadow: 10px 10px 15px grey;
+    background-color: lightpink;
+    transform: skew(-30deg, -15deg);
+    box-shadow: 10px 10px 15px grey;
 }

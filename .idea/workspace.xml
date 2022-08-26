@@ -5,17 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d8ccc87-3e94-4499-abe4-c94c03fde804" name="Default Changelist" comment="Started work on the JS pages">
-      <change afterPath="$PROJECT_DIR$/JavaScript/domExperiments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript/scripts/domExperiments.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week Bootstrap/Bootstrap2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Lab Exam - Completed/Final Lab Exam.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Lab Exam - Completed/scripts/validation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Lab Exam - Completed/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week Bootstrap/style/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Final Lab Exam - Completed/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week HTML/Bigger Truck.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week HTML/Forms - Intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week HTML/Forms - Intro.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/.idea/Favorite Movies-Bootstrap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/.idea/dictionaries/gjames.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/.idea/typescript-compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/images/2001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/images/Casablanca.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/images/Lonesome Dove.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/images/Whats Up Doc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/images/magnifyingGlass white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/images/magnifyingGlass.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/images/marquee blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/images/marquee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/images/movie film border.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/images/rolled film.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/images/wavy lines.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Favorite Movies-Bootstrap/style/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/Guess-My-Number.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/TicTacToe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/Weather.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/images/O.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/images/X.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/images/blank.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/movies.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/scripts/display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/scripts/game.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/scripts/movies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/scripts/weather.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/style/TicTacToe.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/weather2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week Bootstrap/Bootstrap Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week Bootstrap/Bootstrap Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week Bootstrap/Bootstrap Grid System.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week Bootstrap/Bootstrap Grid System.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week Bootstrap/Bootstrap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week Bootstrap/Bootstrap2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week Bootstrap/WorkingCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week Bootstrap/WorkingCode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/Grid.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week CSS/Grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/Margins and Padding.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week CSS/Margins and Padding.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/Nice CSS Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week CSS/Nice CSS Form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/Transforms.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week CSS/Transforms.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/floating.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/images/Dali sound clip.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/images/The Anthropomorphic Cabinet.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/position.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week CSS/position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/scripts/curtain.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/style/Transforms.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week CSS/style/Transforms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/style/Various.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/style/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/style/main4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/style/position.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week CSS/testCSS.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week HTML/ShowHide.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week HTML/ShowHide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week HTML/testing.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +70,7 @@
       <list>
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -85,6 +129,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -130,7 +175,7 @@
       <workItem from="1647475430816" duration="5770000" />
       <workItem from="1659130030213" duration="6191000" />
       <workItem from="1659206992715" duration="59000" />
-      <workItem from="1661541489016" duration="40000" />
+      <workItem from="1661541489016" duration="3548000" />
     </task>
     <task id="LOCAL-00001" summary="merged my two HTML projects">
       <created>1630789382574</created>
@@ -188,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1631847846647</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Started work on the JS pages">
+      <created>1661541538168</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661541538168</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
