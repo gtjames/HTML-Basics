@@ -5,11 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d8ccc87-3e94-4499-abe4-c94c03fde804" name="Default Changelist" comment="Started work on the JS pages">
+      <change afterPath="$PROJECT_DIR$/JavaScript/domExperiments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript/scripts/domExperiments.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week Bootstrap/Bootstrap2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/CSS with Classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/CSS with Classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week CSS/Transforms.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week CSS/Transforms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week CSS/style/Transforms.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week CSS/style/Transforms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Lab Exam - Completed/Final Lab Exam.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Lab Exam - Completed/scripts/validation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Lab Exam - Completed/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Week Bootstrap/style/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Final Lab Exam - Completed/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week HTML/Bigger Truck.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week HTML/Forms - Intro.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week HTML/Forms - Intro.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,17 +96,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Week CSS/images" />
-      <recent name="$PROJECT_DIR$/Week CSS" />
-      <recent name="$PROJECT_DIR$/JavaScript" />
       <recent name="$PROJECT_DIR$/JavaScript/scripts" />
+      <recent name="$PROJECT_DIR$/JavaScript" />
+      <recent name="$PROJECT_DIR$/Week Bootstrap" />
+      <recent name="$PROJECT_DIR$/Week Bootstrap/style" />
+      <recent name="$PROJECT_DIR$/Week CSS/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week Bootstrap" />
       <recent name="$PROJECT_DIR$/JavaScript" />
       <recent name="$PROJECT_DIR$/JavaScript/scripts" />
       <recent name="$PROJECT_DIR$/Week CSS" />
       <recent name="$PROJECT_DIR$/Week HTML/images" />
-      <recent name="$PROJECT_DIR$/Week HTML/Styles" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -121,6 +128,9 @@
       <workItem from="1631644607113" duration="8546000" />
       <workItem from="1644454023102" duration="1165000" />
       <workItem from="1647475430816" duration="5770000" />
+      <workItem from="1659130030213" duration="6191000" />
+      <workItem from="1659206992715" duration="59000" />
+      <workItem from="1661541489016" duration="40000" />
     </task>
     <task id="LOCAL-00001" summary="merged my two HTML projects">
       <created>1630789382574</created>

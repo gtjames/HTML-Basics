@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #bgDiv{ border: 4px solid blue; }
+        #url { width: 500px; }
+        div {
+            width: 100px;
+            height: 100px;
+            border: 2px solid orange
+        }
+    </style>
+</head>
+<body>
+<script>
+    //  look in the console to see that this does NOT work. An error is thrown
+    let url = document.getElementById('url');
+    url.innerHTML = "this is before the URL span"
+</script>
+<div id="url"></div>
+<script>
+    url = document.getElementById('url');
+    url.innerHTML += "this is after the URL span<br>"
+</script>
+<h2> This is an example of window.onload() </h2>
+<div id = "bgDiv"></div>
+<div name="name"></div>
+<div id="id"></div>
+<div class="class"></div>
+</body>
+<script src="scripts/domExperiments.js"></script>
+</html>

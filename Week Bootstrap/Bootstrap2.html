@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SD 101 - Final Lab Exam</title>
+    <!--Add links for bootstrap, JQuery, styles.css,  and validation.js-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <!-- jQuery library -->
+    <!--    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>-->
+    <link rel='stylesheet' href='style/styles.css'>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm">
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Link 3</a>
+        </li>
+    </ul>
+</nav>
+
+<h3>Voter E-Registration</h3>
+<hr />
+
+<!--forms begin-->
+<form name='myForm' id='myForm'>
+    <!--fieldset tag puts box around form-->
+    <fieldset>
+        <p class='input-group'>
+            <span for='txtName' class='input-group-addon'>Name</span>
+            <input type='text' id='txtName' name='txtName'  class='form-control'>
+            <span id='txtNameMessage'></span>
+        </p>
+        <p class='form-check'>
+            <span for='rdGender' class='form-check-label'>Gender</span>
+            <input id='rdGenderM' name='rdGender' type='radio' value='male'  class='form-check-input'> male
+            <input id='rdGenderF' name='rdGender'	type='radio' value='female'  class='form-check-input'> female
+            <span id='rdGenderMessage'></span>
+        </p>
+        <p class='form-check'>
+            <span for='chkCitizen' class='form-check-label'>Are you a U.S. Citizen?</span>
+            <input id='chkCitizen' type='checkbox'	name='chkCitizen'  class='form-check-input'>
+            <span id='chkCitizenMessage'></span>
+        </P>
+        <p class='input-group'>
+            <span for='ddlCounty' class='input-group-addon'>County of Residence:</span>
+            <select id='ddlCounty' name='county'  class='form-control'>
+                <option></option>
+                <option value='Dallas'>Dallas</option>
+                <option value='Collin'>Collin</option>
+                <option value='Denton'>Denton</option>
+                <option value='Johnson'>Johnson</option>
+                <option value='Tarrant'>Tarrant</option>
+            </select>
+            <span id='ddlCountyMessage'></span>
+        </p>
+        <p class='input-group'>
+            <span class='input-group-addon'>Age</span>
+            <input type='number' id='nudAge' name='nudAge'  class='form-control'>
+            <span id='nudAgeMessage'></span>
+        </P>
+        <p class='input-group'>
+            <!--Add email span and textbox-->
+            <span class='input-group-addon'>Email:</span>
+            <input type='text' name='txtEmail' id='txtEmail'  class='form-control' placeholder='youremail@yourdomain.com'>
+        </p>
+        <p class='input-group'>
+            <button onclick='validate()' class='btn btn-primary'>Submit</button>
+        </p>
+    </fieldset>
+</form>
+<br>
+<form class='form-horizontal narrow'>
+    <fieldset>
+        <legend>Checkout</legend>
+        <div class='input-group'>
+            <span class='input-group-addon'><i class='glyphicon glyphicon-user'></i></span>
+            <input type='text' class='form-control' placeholder='Name on Card'>
+        </div>
+        <div class='input-group'>
+            <span class='input-group-addon'><i class='glyphicon glyphicon-credit-card'></i></span>
+            <input type='text' class='form-control' placeholder='0000-0000-0000-0000'>
+        </div>
+        <div class='input-group'>
+            <span class='input-group-addon'><i class='glyphicon glyphicon-calendar'></i></span>
+            <div class='col-sm-2'>
+                <input type='text' class='form-control' placeholder='MM'>
+            </div>
+            <div class='col-sm-2'>
+                <input type='text' class='form-control' placeholder='YYYY'>
+            </div>
+        </div>
+        <div class='col-sm-1'></div>
+        <div class='col-sm-11'>
+            <button type='submit' class='btn btn-primary'>Complete Purchase</button>
+        </div>
+    </fieldset>
+</form>
+<br>
+<div class="panel panel-primary narrow">
+    <div class="panel-heading">Panel Heading - Checkout</div>
+    <div class="panel-body">Panel Body
+        <form class='form-horizontal'>
+            <fieldset>
+                <legend>Checkout</legend>
+                <div class='form-group'>
+                    <label for='txtName' class='control-label col-sm-1'>Name</label>
+                    <div class='col-sm-11'>
+                        <input type='text' class='form-control' placeholder='Name on Card'>
+                    </div>
+                </div>
+                <div class='form-group'>
+                    <label for='txtCardNumber' class='control-label col-sm-1'><i class='glyphicon glyphicon-credit-card'></i></label>
+                    <div class='col-sm-11'>
+                        <input type='text' class='form-control' id='txtCardNumber' placeholder='0000-0000-0000-0000'>
+                    </div>
+                </div>
+                <div class='form-group'>
+                    <label for='txtExpireMonth' class='control-label col-sm-1'>exp</label>
+                    <div class='col-sm-2'>
+                        <input type='text' class='form-control' id='txtExpireMonth' placeholder='MM'>
+                    </div>
+                    <div class='col-sm-2'>
+                        <input type='text' class='form-control' id='txtExpireYear' placeholder='YYYY'>
+                    </div>
+                </div>
+                <div class='col-sm-1'></div>
+                <div class='col-sm-11'>
+                    <button type='submit' class='btn btn-primary'>Complete Purchase</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+</body>
+</html>
