@@ -1,8 +1,8 @@
 var list = [];
-list.push( "Jacobi" );
-list.push( "Dinesh" );
-list.push( "Miguel" );
-list.push( "Vernon" );
+list.push( "Devin" );
+list.push( "Austin" );
+list.push( "Logan" );
+list.push( "Sarah" );
 list.push( "Byron" );
 list.push( "Brian" );
 list.push( "Gary" );
@@ -11,15 +11,16 @@ var names = ['Java', 'C#', 'JavaScript'];
 
 var nums = [3,4,56,34,45,678,234,324,67,465,234,546,2];
 
-function callMe1() {  showList(list);  }
-function callMe2() {  showList(names); }
+function callMe1(title) {  showList(title, list);  }
+function callMe2(title) {  showList(title, names); }
 
-function callMe3() {  sortList(list);  }
-function callMe4() {  sortList(names); }
+function callMe3(title) {  sortList(title, list);  }
+function callMe4(title) {  sortList(title, names); }
 
-function callMe5() {  sortList(nums);  }
+function callMe5(title) {  sortList(title, nums);  }
 
-function showList ( anyList ) {
+function showList ( title, anyList ) {
+  document.title = title
   textDiv.innerHTML = "";
   textDiv.innerHTML += "Biggest: " + getMax(anyList) + "<BR>";
   for ( i = 0; i < anyList.length; i++ ) {
@@ -50,9 +51,9 @@ function getMax(anyList) {
   return max;
 }
 
-function sortList ( anyList ) {
+function sortList ( title, anyList ) {
   anyList.sort();
-  showList(anyList);
+  showList(title, anyList);
 }
 
 function afterStart() {

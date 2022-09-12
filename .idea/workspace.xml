@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="8d8ccc87-3e94-4499-abe4-c94c03fde804" name="Default Changelist" comment="removed junky files and updated some to be worth showing in class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week Bootstrap/Bootstrap Form.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week Bootstrap/Bootstrap Form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week Bootstrap/Bootstrap2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Week Bootstrap/Bootstrap2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/events.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript/scripts/simpleEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/scripts/simpleEvents.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +127,7 @@
       <workItem from="1661541489016" duration="4166000" />
       <workItem from="1662496638022" duration="881000" />
       <workItem from="1662499478929" duration="746000" />
+      <workItem from="1663010694734" duration="647000" />
     </task>
     <task id="LOCAL-00001" summary="merged my two HTML projects">
       <created>1630789382574</created>
@@ -198,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661545698583</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="removed junky files and updated some to be worth showing in class">
+      <created>1663010802657</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663010802657</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
