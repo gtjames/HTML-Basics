@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'/>
+  <title>Responsive Design</title>
+  <link rel='stylesheet' href='styles.css'/>
+</head>
+<body>
+<div class='page'>
+  <div class='section header'>
+    <img src='images/header.svg'/>
+  </div>
+  <div class='section menu'>
+    <h1 id='menu'></h1>
+  </div>
+  <div class='section content'>
+    <img src='images/content.svg'/>
+  </div>
+  <div class='section sign-up'>
+    <img src='images/sign-up.svg'/>
+  </div>
+  <div class='section feature-1'>
+    <img src='images/feature.svg'/>
+  </div>
+  <div class='section feature-2'>
+    <img src='images/feature.svg'/>
+  </div>
+  <div class='section feature-3'>
+    <img src='images/feature.svg'/>
+  </div>
+</div></body>
+<script>
+  let menu = document.getElementById('menu');
+  window.addEventListener("resize",resize,0);
+  function resize (e) {
+    var w = window.outerWidth;
+    var h = window.outerHeight;
+    menu.innerText = `width= ${w}, height= ${h}`;
+  }
+</script>
+</html>

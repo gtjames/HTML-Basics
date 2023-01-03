@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d8ccc87-3e94-4499-abe4-c94c03fde804" name="Default Changelist" comment="removed junky files and updated some to be worth showing in class">
+    <list default="true" id="8d8ccc87-3e94-4499-abe4-c94c03fde804" name="Default Changelist" comment="added in the gitignore file">
+      <change afterPath="$PROJECT_DIR$/Responsive Design/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Responsive Design/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/events.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript/scripts/simpleEvents.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript/scripts/simpleEvents.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +19,21 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -72,6 +81,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -85,7 +95,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -97,10 +107,10 @@
       <recent name="$PROJECT_DIR$/Week CSS/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Week CSS" />
       <recent name="$PROJECT_DIR$/Week Bootstrap" />
       <recent name="$PROJECT_DIR$/JavaScript" />
       <recent name="$PROJECT_DIR$/JavaScript/scripts" />
-      <recent name="$PROJECT_DIR$/Week CSS" />
       <recent name="$PROJECT_DIR$/Week HTML/images" />
     </key>
   </component>
@@ -127,7 +137,11 @@
       <workItem from="1661541489016" duration="4166000" />
       <workItem from="1662496638022" duration="881000" />
       <workItem from="1662499478929" duration="746000" />
-      <workItem from="1663010694734" duration="647000" />
+      <workItem from="1663010694734" duration="701000" />
+      <workItem from="1663090607993" duration="597000" />
+      <workItem from="1669666451776" duration="2058000" />
+      <workItem from="1671463051176" duration="431000" />
+      <workItem from="1671565152378" duration="8634000" />
     </task>
     <task id="LOCAL-00001" summary="merged my two HTML projects">
       <created>1630789382574</created>
@@ -206,7 +220,28 @@
       <option name="project" value="LOCAL" />
       <updated>1663010802657</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updated the events to include an argument">
+      <created>1663011374949</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663011374949</updated>
+    </task>
+    <task id="LOCAL-00013" summary="added another CSS test file">
+      <created>1669666603495</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669666603495</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added in the gitignore file">
+      <created>1669742723238</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1669742723238</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -274,7 +309,10 @@
     <MESSAGE value="General improvement of the Bootstrap code" />
     <MESSAGE value="Started work on the JS pages" />
     <MESSAGE value="removed junky files and updated some to be worth showing in class" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed junky files and updated some to be worth showing in class" />
+    <MESSAGE value="updated the events to include an argument" />
+    <MESSAGE value="added another CSS test file" />
+    <MESSAGE value="added in the gitignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added in the gitignore file" />
   </component>
   <component name="masterDetails">
     <states>
