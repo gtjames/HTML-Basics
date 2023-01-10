@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d8ccc87-3e94-4499-abe4-c94c03fde804" name="Default Changelist" comment="added in the gitignore file">
-      <change afterPath="$PROJECT_DIR$/Responsive Design/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Responsive Design/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="8d8ccc87-3e94-4499-abe4-c94c03fde804" name="Default Changelist" comment="Responsive Design">
+      <change afterPath="$PROJECT_DIR$/Responsive Design/flex-styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Responsive Design/flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Responsive Design/images/awesome-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Responsive Design/images/five.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Responsive Design/images/four.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Responsive Design/images/one.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Responsive Design/images/social-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Responsive Design/images/three.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Responsive Design/images/two.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Responsive Design/images/feature.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Responsive Design/images/feature.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Responsive Design/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Responsive Design/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +56,9 @@
     <option name="height" value="876" />
   </component>
   <component name="ProjectId" id="1xdZbwkT5JAzpfMj1D7KQ84gfdv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -87,7 +97,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Responsive Design/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -100,11 +110,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Responsive Design/images" />
       <recent name="$PROJECT_DIR$/JavaScript/scripts" />
       <recent name="$PROJECT_DIR$/JavaScript" />
       <recent name="$PROJECT_DIR$/Week Bootstrap" />
       <recent name="$PROJECT_DIR$/Week Bootstrap/style" />
-      <recent name="$PROJECT_DIR$/Week CSS/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Week CSS" />
@@ -141,7 +151,7 @@
       <workItem from="1663090607993" duration="597000" />
       <workItem from="1669666451776" duration="2058000" />
       <workItem from="1671463051176" duration="431000" />
-      <workItem from="1671565152378" duration="8634000" />
+      <workItem from="1671565152378" duration="12071000" />
     </task>
     <task id="LOCAL-00001" summary="merged my two HTML projects">
       <created>1630789382574</created>
@@ -241,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669742723238</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Responsive Design">
+      <created>1672775747583</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1672775747583</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -312,7 +329,8 @@
     <MESSAGE value="updated the events to include an argument" />
     <MESSAGE value="added another CSS test file" />
     <MESSAGE value="added in the gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added in the gitignore file" />
+    <MESSAGE value="Responsive Design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive Design" />
   </component>
   <component name="masterDetails">
     <states>
