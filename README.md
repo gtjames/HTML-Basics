@@ -1,18 +1,12 @@
 # SD-101HTML
 * Week HTML  
-The week's labs for HTML
+Exmaples of simple HTML
 * Week CSS  
-CSS labs
+See some of the simple but attractive things that can be done with CSS
+Transitions and Transforms
 * Week Bootstrap  
 Transitioning into Bootstrap  
-* CSS-Dali  
-More CSS development
 * JavaScript  
 Making the web sites interactive
-
-# Student developed web site
-* Favorite Movies-Bootstrap
-* Favorite Movies
-
-# Examples to add to the lessons
-* Experiments
+* Responsive Design
+What happens when the screen sizes change
