@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d8ccc87-3e94-4499-abe4-c94c03fde804" name="Default Changelist" comment="Responsive Design">
-      <change afterPath="$PROJECT_DIR$/Responsive Design/flex-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Responsive Design/flex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Responsive Design/images/awesome-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Responsive Design/images/five.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Responsive Design/images/four.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Responsive Design/images/one.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Responsive Design/images/social-icons.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Responsive Design/images/three.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Responsive Design/images/two.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Responsive Design/images/feature.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Responsive Design/images/feature.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Responsive Design/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Responsive Design/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="8d8ccc87-3e94-4499-abe4-c94c03fde804" name="Default Changelist" comment="Responsive Design" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -151,7 +138,7 @@
       <workItem from="1663090607993" duration="597000" />
       <workItem from="1669666451776" duration="2058000" />
       <workItem from="1671463051176" duration="431000" />
-      <workItem from="1671565152378" duration="12071000" />
+      <workItem from="1671565152378" duration="12091000" />
     </task>
     <task id="LOCAL-00001" summary="merged my two HTML projects">
       <created>1630789382574</created>
@@ -258,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672775747583</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Responsive Design">
+      <created>1673368670301</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1673368670302</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
